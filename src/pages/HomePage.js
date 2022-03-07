@@ -1,27 +1,9 @@
+import "../components/Navbar";
+import Navbar from "../components/Navbar";
 export default function HomePage() {
   return (
     <>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#about">About Us</a>
-            </li>
-            <li>
-              <a href="#product">Products</a>
-            </li>
-            <li>
-              <a href="#contact">Contact Us</a>
-            </li>
-            <li>
-              <a href="#location">Locations</a>
-            </li>
-            <li>
-              <a href="/login">Order</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <Navbar />
       <div>
         <h1>Fresh State Kombucha Cocktail</h1>
         <br />
