@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
 .App {
   text-align: center;
   height: 100vh;
@@ -10,5 +12,5 @@
   margin: 0;
   overflow-y: scroll;
   color: azure;
-  font-family: "Oswald", sans-serif;
+  font-family: "Amatic SC", cursive;
 }
