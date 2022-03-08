@@ -1,4 +1,5 @@
 import "../components/Navbar";
+import "../Styles/HomePage.css";
 import Navbar from "../components/Navbar";
 export default function HomePage() {
   return (
@@ -10,22 +11,23 @@ export default function HomePage() {
         <h2>High Quality Ingredients And Exciting Flavors!</h2>
       </div>
       <br />
-      <h3>About Us</h3>
       <div>
-        <br />
-        <p>
-          After years of being in the kombucha industry, we have seen our
-          friends, community, and ourselves making our weekend and evening
-          cocktails with kombucha. Why not just give everyone the ability to
-          enjoy these handcrafted kombucha cocktails at their own convenience.
-          No time to mix up a cocktail? We got you. Want to take your favorite
-          kombucha cocktail outdoors without hauling all the ingredients and
-          tools to make it? We got you. Looking for a ready to drink cocktail
-          that's low in sugar with no artificial ingredients? We got you! With
-          flavors like TIki Style Guava Rum and a Grapefruit Vodka, you can pour
-          these refreshing cocktails over ice with split between friends or
-          drink straight from the can!
-        </p>
+        <h3>About Us</h3>
+        <div className="AboutUs">
+          <p>
+            After years of being in the kombucha industry, we have seen our
+            friends, community, and ourselves making our weekend and evening
+            cocktails with kombucha. Why not just give everyone the ability to
+            enjoy these handcrafted kombucha cocktails at their own convenience.
+            No time to mix up a cocktail? We got you. Want to take your favorite
+            kombucha cocktail outdoors without hauling all the ingredients and
+            tools to make it? We got you. Looking for a ready to drink cocktail
+            that's low in sugar with no artificial ingredients? We got you! With
+            flavors like TIki Style Guava Rum and a Grapefruit Vodka, you can
+            pour these refreshing cocktails over ice with split between friends
+            or drink straight from the can!
+          </p>
+        </div>
       </div>
     </>
   );
