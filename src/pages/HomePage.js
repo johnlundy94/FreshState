@@ -12,7 +12,7 @@ export default function HomePage() {
       </div>
       <br />
       <div>
-        <h3>About Us</h3>
+        <h3 id="about">About Us</h3>
         <div className="AboutUs">
           <p>
             After years of being in the kombucha industry, we have seen our
