@@ -1,6 +1,7 @@
 import "../components/Navbar";
 import "../Styles/HomePage.css";
 import Navbar from "../components/Navbar";
+import ImageSlider from "../components/ImageSlider";
 export default function HomePage() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function HomePage() {
             or drink straight from the can!
           </p>
         </div>
+        <ImageSlider />
       </div>
     </>
   );
