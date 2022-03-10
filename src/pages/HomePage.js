@@ -2,6 +2,7 @@ import "../components/Navbar";
 import "../Styles/HomePage.css";
 import Navbar from "../components/Navbar";
 import ImageSlider from "../components/ImageSlider";
+import { SliderData } from "../components/SliderData";
 export default function HomePage() {
   return (
     <>
@@ -29,7 +30,7 @@ export default function HomePage() {
             or drink straight from the can!
           </p>
         </div>
-        <ImageSlider />
+        <ImageSlider slides={SliderData} />
       </div>
     </>
   );
