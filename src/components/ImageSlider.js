@@ -11,7 +11,15 @@ const ImageSlider = ({ slides }) => {
       <FaArrowAltCircleLeft className="left-arrow" />
       <FaArrowAltCircleRight className="right-arrow" />
       {SliderData.map(({ id, src, title, description }) => {
-        return <img key={id} src={src} title={title} alt={description} />;
+        return (
+          <img
+            key={id}
+            src={src}
+            title={title}
+            alt={description}
+            className="image"
+          />
+        );
       })}
     </section>
   );
