@@ -15,9 +15,6 @@ export default function () {
             <a href="#contact">Contact Us</a>
           </li>
           <li>
-            <a href="#location">Locations</a>
-          </li>
-          <li>
             <a href="/login">Order</a>
           </li>
         </ul>

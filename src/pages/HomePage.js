@@ -30,7 +30,12 @@ export default function HomePage() {
             or drink straight from the can!
           </p>
         </div>
-        <ImageSlider slides={SliderData} />
+        <h3 id="product" className="products">
+          Products
+        </h3>
+        <div className="Products">
+          <ImageSlider slides={SliderData} />
+        </div>
       </div>
     </>
   );
